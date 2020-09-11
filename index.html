@@ -5,34 +5,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>webSite3</title>
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header class="header">
+        <div class="animation show">
+            <div class="content">
+                <span class="animation1"></span>
+                <span class="animation2"></span>
+                <span class="animation3"></span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar">
+                    <h1 class="logo">subertecno</h1>
+                    <ul class="nav">
+                        <li class="nav-item active" data-link="header">home</li>
+                        <li class="nav-item" data-link="about-us">about us</li>
+                        <li class="nav-item" data-link="features">features</li>
+                        <li class="nav-item" data-link="stats">stats</li>
+                        <li class="nav-item" data-link="pricing">courses</li>
+                        <li class="nav-item" data-link="testimonial">testimonial</li>
+                        <li class="nav-item" data-link="contact-us">contact</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="header" data-link="header">
             <img src="images/background.jpg" alt="" class="bg">
             <div class="content">
                 <div class="container">
                     <div class="navbar">
                         <h1 class="logo">subertecno</h1>
                         <ul class="nav">
-                            <li class="nav-item active">home</li>
-                            <li class="nav-item">about us</li>
-                            <li class="nav-item">stats</li>
-                            <li class="nav-item">features</li>
-                            <li class="nav-item">testimonial</li>
-                            <li class="nav-item">plans</li>
-                            <li class="nav-item">contact</li>
+                            <li class="nav-item active" data-link="header">home</li>
+                            <li class="nav-item" data-link="about-us">about us</li>
+                            <li class="nav-item" data-link="features">features</li>
+                            <li class="nav-item" data-link="stats">stats</li>
+                            <li class="nav-item" data-link="pricing">courses</li>
+                            <li class="nav-item" data-link="testimonial">testimonial</li>
+                            <li class="nav-item" data-link="contact-us">contact</li>
                         </ul>
                     </div>
                     <div class="home">
                         <h2 class="title">Do u wanna be <span class="special">programmer</span></h2>
                         <p class="desc">This is the best website in the middle east to learn programming from A to Z. Here you can be a front-end programmer, back-end programmer or full stack.</p>
-                        <button class="plans">Plans</button>
+                        <button class="courses">See Our Courses</button>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="about-us">
+        <div class="animated-section about-us" data-link="about-us">
             <div class="container">
                 <div class="content">
                     <h2 class="title">About Us</h2>
@@ -45,33 +69,349 @@
                 </div>
             </div>
         </div>
-        <div class="stats">
+        <div class="animated-section features" data-link="features">
+            <div class="container">
+                <h2 class="title">Features</h2>
+                <div class="content">
+                    <div class="feature">
+                        <div class="icon">
+                            <i class="fa fa-question"></i>
+                        </div>
+                        <h3 class="feature-title">support for 24 hours</h3>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <h3 class="feature-title">live time lessons</h3>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <h3 class="feature-title">hundreds of teachers</h3>
+                    </div>
+                    <div class="feature">
+                        <div class="icon">
+                            <i class="fa fa-money"></i>
+                        </div>
+                        <h3 class="feature-title">easy and cheap</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="animated-section stats" data-link="stats">
             <div class="overlay"></div>
             <div class="container">
                 <h2 class="title">Statistics</h2>
                 <div class="content">
                     <div class="stat">
                         <div class="number" data-val="3873">37873</div>
-                        <h4 class="stat-title">Students</h4>
-                        <p class="desc">The students who started our plans</p>
+                        <div class="content">
+                            <h4 class="stat-title">Students</h4>
+                            <p class="desc">The students who started our courses</p>
+                        </div>
                     </div>
                     <div class="stat">
                         <div class="number" data-val="26">26</div>
-                        <h4 class="stat-title">Countries</h4>
-                        <p class="desc">The countries wich the students came from</p>
+                        <div class="content">
+                            <h4 class="stat-title">Countries</h4>
+                            <p class="desc">The countries wich the students came from</p>
+                        </div>
                     </div>
                     <div class="stat">
                         <div class="number" data-val="13">3</div>
-                        <h4 class="stat-title">Plans</h4>
-                        <p class="desc">Our different plans</p>
+                        <div class="content">
+                            <h4 class="stat-title">Courses</h4>
+                            <p class="desc">Our different courses</p>
+                        </div>
                     </div>
                     <div class="stat">
                         <div class="number" data-val="13">13</div>
-                        <h4 class="stat-title">Courses</h4>
-                        <p class="desc">Our courses in different programming languages</p>
+                        <div class="content">
+                            <h4 class="stat-title">Lessons</h4>
+                            <p class="desc">Our lessons in different programming languages</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="animated-section pricing" data-link="pricing">
+            <div class="container">
+                <h2 class="title">Pricing</h2>
+                <div class="links">
+                    <div class="link active" data-index="0">Front End</div>
+                    <div class="link" data-index="1">Back End</div>
+                    <div class="link" data-index="2">Full Stack</div>
+                </div>
+                <div class="plans">
+                    <div class="plan active">
+                        <div class="courses">
+                            <div class="course">
+                                <h3 class="course-title">Basic Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">4.99</span>
+                                <div class="content">
+                                    <div class="ele">HTML 5 (basics, new tags, svg)</div>
+                                    <div class="ele">CSS 5 (basics, animation)</div>
+                                    <div class="ele">Js (basics, BOM, DOM)</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                            <div class="course">
+                                <h3 class="course-title">Standard Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">14.99</span>
+                                <div class="content">
+                                    <div class="ele">HTML 5 (basics, new tags, svg)</div>
+                                    <div class="ele">CSS 5 (basics, animation, media query)</div>
+                                    <div class="ele">Js (basics, BOM, DOM, opp, canvas)</div>
+                                    <div class="ele">Jquery</div>
+                                    <div class="ele">Bootstrap 4</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                            <div class="course">
+                                <h3 class="course-title">Premium Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">49.99</span>
+                                <div class="content">
+                                    <div class="ele">HTML 5 (basics, new tags, svg)</div>
+                                    <div class="ele">CSS 5 (basics, animation, media query)</div>
+                                    <div class="ele">Js (basics, BOM, DOM, opp, canvas)</div>
+                                    <div class="ele">Jquery</div>
+                                    <div class="ele">Bootstrap 4</div>
+                                    <div class="ele">React (basics, redux)</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="courses">
+                            <div class="course">
+                                <h3 class="course-title">Basic Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">4.99</span>
+                                <div class="content">
+                                    <div class="ele">PHP 7.4</div>
+                                    <div class="ele">MySQL 8.0</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                            <div class="course">
+                                <h3 class="course-title">Standard Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">14.99</span>
+                                <div class="content">
+                                    <div class="ele">PHP 7.4 (basics, opp, test)</div>
+                                    <div class="ele">MySQL 8.0</div>
+                                    <div class="ele">API</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                            <div class="course">
+                                <h3 class="course-title">Premium Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">49.99</span>
+                                <div class="content">
+                                    <div class="ele">PHP 7.4 (basics, opp, test, laraval)</div>
+                                    <div class="ele">MySQL 8.0</div>
+                                    <div class="ele">API</div>
+                                    <div class="ele">Send emails</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="courses">
+                            <div class="course">
+                                <h3 class="course-title">Basic Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">14.99</span>
+                                <div class="content">
+                                    <div class="ele">HTML 5 (basics, new tags)</div>
+                                    <div class="ele">CSS 5 (basics)</div>
+                                    <div class="ele">Js (basics, BOM, DOM)</div>
+                                    <div class="ele">PHP 7.4</div>
+                                    <div class="ele">MySQL 8.0</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                            <div class="course">
+                                <h3 class="course-title">Standard Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">24.99</span>
+                                <div class="content">
+                                    <div class="ele">HTML 5 (basics, new tags)</div>
+                                    <div class="ele">CSS 5 (basics, animation)</div>
+                                    <div class="ele">Js (basics, BOM, DOM, ajax)</div>
+                                    <div class="ele">PHP 7.4 (basics, opp, test)</div>
+                                    <div class="ele">MySQL 8.0</div>
+                                    <div class="ele">API</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                            <div class="course">
+                                <h3 class="course-title">Premium Plan</h3>
+                                <span class="dollar"><i class="fa fa-usd"></i></span><span class="price">74.99</span>
+                                <div class="content">
+                                    <div class="ele">HTML 5 (basics, new tags)</div>
+                                    <div class="ele">CSS 5 (basics, animation)</div>
+                                    <div class="ele">Js (basics, BOM, DOM, ajax)</div>
+                                    <div class="ele">PHP 7.4 (basics, opp, test, laraval)</div>
+                                    <div class="ele">MySQL 8.0</div>
+                                    <div class="ele">API</div>
+                                    <div class="ele">Send emails</div>
+                                </div>
+                                <button class="buy">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="animated-section testimonial" data-link="testimonial">
+            <div class="container">
+                <h2 class="title">People Said</h2>
+                <div class="blocks">
+                    <div class="block super-left">
+                        <p class="msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia magni quas dolorem laboriosam atque sint impedit ad excepturi dicta doloremque asperiores alias molestias similique nulla, rem accusantium, et in nemo!</p>
+                        <div class="stars">
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star avtive"></span>
+                            <span class="star"></span>
+                        </div>
+                        <img src="images/omar.png" alt="" class="logo">
+                        <h3 class="name">Omar Hassan</h3>
+                        <div class="rank advanced">Advanced User</div>
+                    </div>
+                    <div class="block left">
+                        <p class="msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt enim quos aliquid officiis quis dolore accusamus deserunt, consequatur assumenda! Accusamus cumque nihil dolore odit facilis beatae temporibus officiis iure, assumenda vel ea, labore voluptatum pariatur voluptatem esse distinctio et, fugiat provident iusto minus similique libero!</p>
+                        <div class="stars">
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star avtive"></span>
+                            <span class="star avtive"></span>
+                        </div>
+                        <img src="images/orahara.jpg" alt="" class="logo">
+                        <h3 class="name">urahara Kiski</h3>
+                        <div class="rank ancient">Ancient User</div>
+                    </div>
+                    <div class="block middle">
+                        <p class="msg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas provident possimus nostrum dignissimos accusantium quod sint delectus ratione dolore adipisci?</p>
+                        <div class="stars">
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <img src="images/eren.jfif" alt="" class="logo">
+                        <h3 class="name">Eren Yeager</h3>
+                        <div class="rank advanced">Advanced User</div>
+                    </div>
+                    <div class="block right">
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid harum ipsa adipisci distinctio assumenda.</p>
+                        <div class="stars">
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="logo">
+                            <img src="images/avatar.png" alt="" class="img">
+                        </div>
+                        <h3 class="name">Unknown</h3>
+                        <div class="rank new">New User</div>
+                    </div>
+                    <div class="block super-right">
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid harum ipsa adipisci distinctio assumenda.</p>
+                        <div class="stars">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <img src="images/inoue.jpeg" alt="" class="logo">
+                        <h3 class="name">Inoue Orihime</h3>
+                        <div class="rank new">New User</div>
+                    </div>
+                    <div class="block">
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid harum ipsa adipisci distinctio assumenda.</p>
+                        <div class="stars">
+                            <span class="star active"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <img src="images/naruto.jpg" alt="" class="logo">
+                        <h3 class="name">Naruto Uzumaki</h3>
+                        <div class="rank advanced">Advanced User</div>
+                    </div>
+                    <div class="block">
+                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid harum ipsa adipisci distinctio assumenda.</p>
+                        <div class="stars">
+                            <span class="star active"></span>
+                            <span class="star active"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                        <img src="images/inoue.jpeg" alt="" class="logo">
+                        <h3 class="name">Inoue Orihimy</h3>
+                        <div class="rank ancient">Ancient User</div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <span class="back"></span>
+                    <span class="next"></span>
+                </div>
+            </div>
+        </div>
+        <div class="animated-section contact-us" data-link="contact-us">
+            <div class="container">
+                <h2 class="title">Contact Us</h2>
+                <div class="content">
+                    <form action="" class="form">
+                        <div class="inputs">
+                            <input type="text" placeholder="Full Name">
+                            <input type="text" placeholder="Email Address">
+                            <input type="text" placeholder="Personal Phone Number">
+                            <input type="text" placeholder="Office Phone Number">
+                        </div>
+                        <div class="msg">
+                            <textarea placeholder="Type your message..."></textarea>
+                        </div>
+                        <button class="send">Send Your Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="left">
+                    All rights reserved <sup>&copy;</sup> 2020 Omar Hassan
+                </div>
+                <div class="right">
+                    <div class="data">
+                        <span class="email"><i class="fa fa-envelope"></i>omar13102005@gmail.com</span>
+                        <span class="phone-number"><i class="fa fa-phone"></i>01047291378</span>
+                    </div>
+                    <div class="social">
+                        <span class="facebook">
+                            <i class="fa fa-facebook"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa fa-twitter"></i>
+                        </span>
+                        <span class="youtube">
+                            <i class="fa fa-youtube"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
     </body>
 </html>
