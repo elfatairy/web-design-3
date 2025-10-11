@@ -14,9 +14,9 @@
     A simple landing page for a programming course.
     <br />
     <br />
-    <a href="https://github.com/elfatairy/web-desing-3/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/elfatairy/web-design-3/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/elfatairy/web-desing-3/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/elfatairy/web-design-3/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -43,7 +43,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/elfatairy/web-desing-3.git
+   git clone https://github.com/elfatairy/web-design-3.git
    ```
 2. Install NPM packages
 
@@ -79,7 +79,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Omar Hassan - [@omar_elfat76510](https://x.com/omar_elfat76510) - elfatairy@omarhassan.net
 
-Project Link: [https://github.com/elfatairy/web-desing-3](https://github.com/elfatairy/web-desing-3)
+Project Link: [https://github.com/elfatairy/web-design-3](https://github.com/elfatairy/web-design-3)
 
 Portfolio: [https://omarhassan.net](https://omarhassan.net)
 
@@ -88,16 +88,16 @@ Portfolio: [https://omarhassan.net](https://omarhassan.net)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/elfatairy/web-desing-3.svg?style=for-the-badge
-[contributors-url]: https://github.com/elfatairy/web-desing-3/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/elfatairy/web-desing-3.svg?style=for-the-badge
-[forks-url]: https://github.com/elfatairy/web-desing-3/network/members
-[stars-shield]: https://img.shields.io/github/stars/elfatairy/web-desing-3.svg?style=for-the-badge
-[stars-url]: https://github.com/elfatairy/web-desing-3/stargazers
-[issues-shield]: https://img.shields.io/github/issues/elfatairy/web-desing-3.svg?style=for-the-badge
-[issues-url]: https://github.com/elfatairy/web-desing-3/issues
-[license-shield]: https://img.shields.io/github/license/elfatairy/web-desing-3.svg?style=for-the-badge
-[license-url]: https://github.com/elfatairy/web-desing-3/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/elfatairy/web-design-3.svg?style=for-the-badge
+[contributors-url]: https://github.com/elfatairy/web-design-3/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/elfatairy/web-design-3.svg?style=for-the-badge
+[forks-url]: https://github.com/elfatairy/web-design-3/network/members
+[stars-shield]: https://img.shields.io/github/stars/elfatairy/web-design-3.svg?style=for-the-badge
+[stars-url]: https://github.com/elfatairy/web-design-3/stargazers
+[issues-shield]: https://img.shields.io/github/issues/elfatairy/web-design-3.svg?style=for-the-badge
+[issues-url]: https://github.com/elfatairy/web-design-3/issues
+[license-shield]: https://img.shields.io/github/license/elfatairy/web-design-3.svg?style=for-the-badge
+[license-url]: https://github.com/elfatairy/web-design-3/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/omar-hassan-81888320b/
 [HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
